@@ -1,0 +1,43 @@
+*{
+    margin: auto ;
+    padding: inherit;
+}
+
+body{
+    background-color: rgb(245, 240, 244);
+font-family: 'Times New Roman', Times, serif;
+font-family: "Rubik Scribble", system-ui;
+font-family: "Imbue", serif;
+}
+h1,h2,h3{
+    text-align: right;
+}
+body{
+    width: auto;
+    margin: auto;
+    background-color: rgb(240, 229, 236);
+    padding: 0vmax;
+}
+
+#naz{
+    background-color: rgb(128, 82, 134);
+}
+.mavi{
+    background-color: rgb(104, 70, 136);
+}
+
+#ttt{
+    background-color: rgb(96, 60, 107);
+}
+.links{
+    border: 1px rgb(85, 50, 50);
+    display: flex;
+    justify-content: flex-end;
+}
+.login{
+    margin-left: 0vb;
+}
+
+.menu{
+    display: flex;
+}
