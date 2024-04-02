@@ -41,3 +41,53 @@ body{
 .menu{
     display: flex;
 }
+
+.flex-container{
+    display: flex;
+}
+
+.header-container{
+    color: chartreuse;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: auto;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.photo-grid-container{
+width: fit-content;
+height: max-content;
+display: flex;
+
+}
+
+.photo-grid{
+    width: min-content;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.photo-grid-item{
+    border: 1px solid #b11818;
+    width: 300px;
+    height: 3000px;
+}
+
+.photo-grid{
+    SİLÜET
+    flex-wrap: wrap;
+}
+.photo-grid{
+    width: 900px;
+    display: flex;
+    justify-content: center; gercek
+    flex-wrap: ;
+
+}
