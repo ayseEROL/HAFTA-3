@@ -1,22 +1,23 @@
 *{
-    margin: auto ;
-    padding: inherit;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
 }
-
 body{
     background-color: rgb(245, 240, 244);
-font-family: 'Times New Roman', Times, serif;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-family: "Rubik Scribble", system-ui;
 font-family: "Imbue", serif;
 }
 h1,h2,h3{
-    text-align: right;
+    text-align:center
 }
 body{
     width: auto;
     margin: auto;
     background-color: rgb(240, 229, 236);
     padding: 0vmax;
+background-image:image();
 }
 
 #naz{
@@ -27,7 +28,7 @@ body{
 }
 
 #ttt{
-    background-color: rgb(96, 60, 107);
+    background-color: rgb(225, 215, 228);
 }
 .links{
     border: 1px rgb(85, 50, 50);
@@ -58,18 +59,17 @@ body{
     height: fit-content;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 
 }
 
 .photo-grid-container{
-width: fit-content;
-height: max-content;
 display: flex;
+justify-content: center;
 
 }
 
 .photo-grid{
-    width: min-content;
     display: flex;
     justify-content: flex-start;
 }
@@ -77,17 +77,31 @@ display: flex;
 .photo-grid-item{
     border: 1px solid #b11818;
     width: 300px;
-    height: 3000px;
+    height: 300px;
 }
 
 .photo-grid{
-    SİLÜET
     flex-wrap: wrap;
 }
 .photo-grid{
     width: 900px;
     display: flex;
-    justify-content: center; gercek
-    flex-wrap: ;
+    justify-content: center;
+    flex-wrap:wrap ;
 
+}
+.conte{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+
+}
+.header-conte{
+    color: chartreuse;
+    background-color: rgb(9, 73, 75);
+    display: flex;
+    justify-content: center;
 }
