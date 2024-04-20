@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(245, 240, 244);
+    background-color: rgb(95, 92, 95);
 font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-family: "Rubik Scribble", system-ui;
 font-family: "Imbue", serif;
@@ -15,9 +15,9 @@ h1,h2,h3{
 body{
     width: auto;
     margin: auto;
-    background-color: rgb(240, 229, 236);
+    background-color: rgb(245, 243, 244);
     padding: 0vmax;
-background-image:image();
+background-image:-webkit-image-set()
 }
 
 #naz{
@@ -28,10 +28,10 @@ background-image:image();
 }
 
 #ttt{
-    background-color: rgb(225, 215, 228);
+    background-color: rgb(244, 243, 245);
 }
 .links{
-    border: 1px rgb(85, 50, 50);
+    border: 1px rgb(22, 21, 21);
     display: flex;
     justify-content: flex-end;
 }
@@ -105,3 +105,4 @@ justify-content: center;
     display: flex;
     justify-content: center;
 }
+.links
