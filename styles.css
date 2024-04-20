@@ -98,9 +98,4 @@ justify-content: center;
     align-items: center;
     height: fit-content;
 }
-.header-conte{
-    color: chartreuse;
-    background-color: rgb(9, 73, 75);
-    display: flex;
-    justify-content: center;
-}
+
