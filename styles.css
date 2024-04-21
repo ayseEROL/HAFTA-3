@@ -9,8 +9,8 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-family: "Rubik Scribble", system-ui;
 font-family: "Imbue", serif;
 }
-h1,h2,h3{
-    text-align:center
+h1 {
+    text-align: center;
 }
 body{
     width: auto;
