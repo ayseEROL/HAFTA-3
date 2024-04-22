@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    background-color: rgb(95, 92, 95);
-font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgb(20, 20, 20);
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 font-family: "Rubik Scribble", system-ui;
 font-family: "Imbue", serif;
 }
@@ -21,10 +21,10 @@ background-image:-webkit-image-set()
 }
 
 #naz{
-    background-color: rgb(128, 82, 134);
+    background-color: rgb(8, 8, 8);
 }
 .mavi{
-    background-color: rgb(104, 70, 136);
+    background-color: rgb(13, 13, 14);
 }
 
 #ttt{
@@ -98,4 +98,3 @@ justify-content: center;
     align-items: center;
     height: fit-content;
 }
-
