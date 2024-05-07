@@ -56,11 +56,6 @@ background-image:-webkit-image-set()
 .menu{
     display: flex;
 }
-
-
-
-
-
 .header{
     width: auto;
     height: fit-content;
@@ -74,6 +69,5 @@ background-image:-webkit-image-set()
     display: flex;
     justify-content: flex-start;
 }
-
 
 }
