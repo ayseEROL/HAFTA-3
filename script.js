@@ -41,3 +41,30 @@ if(age>=18){
 }else{
     console.log("minor")
 }
+let port=document.getElementById('ttt')
+console.log(port);
+let fff=document.getElementsByClassName('ana')
+console.log(fff)
+
+
+port.innerHTML='AYSE'
+
+function ok() {
+let gelen=document.getElementById('gelen');
+let newImageSource='images/WhatsApp Görsel 2024-01-16 saat 14.32.35_4ed68785.jpg'
+gelen.setAttribute('src', newImageSource);
+}
+function yaz(){
+    let yazyaz=document.getElementById('yazyaz');
+    yazyaz.classList.add('italic')
+
+}
+let rrr=document.getElementById('child')
+
+
+function createNewDiv(){
+    let newDiv=document.createElement('div');
+    newDiv.classList.add('newDiv')
+    newDiv.textContent='ldaha fazla için'
+    document.body.appendChild(newDiv)
+}

@@ -62,7 +62,7 @@ background-image:-webkit-image-set()
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-
+}
 
 
 .photo-grid{
@@ -70,4 +70,12 @@ background-image:-webkit-image-set()
     justify-content: flex-start;
 }
 
+.italic{
+    font-style: italic;
 }
+.newDiv{
+    background-color: blue;
+    padding: 10px;
+    margin: 10px;
+}
+
