@@ -65,6 +65,18 @@ let rrr=document.getElementById('child')
 function createNewDiv(){
     let newDiv=document.createElement('div');
     newDiv.classList.add('newDiv')
-    newDiv.textContent='ldaha fazla için'
+    newDiv.textContent='daha fazla için'
     document.body.appendChild(newDiv)
+}
+let mymy=document.getElementById("ButtonMy");
+
+mymy.addEventListener("click", function(event)
+{
+    console.log("Button Clicked!",event);
+});
+
+function ayseee(){
+    for(let i=1; i<=3; i++){
+        alert("merak ediyorsanız " +i);
+    }
 }
