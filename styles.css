@@ -2,35 +2,44 @@
     margin: 0 ;
     padding: 0;
     box-sizing: border-box;
-    color: rgb(133, 93, 129);
+    color: rgba(7, 7, 7, 0.979);
+   
 }
 body{
-    background-color: rgb(52, 121, 83);
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-font-family: "Rubik Scribble", system-ui;
-font-family: "Imbue", serif;
+ 
+font-family: 'Times New Roman', Times, serif;
+font-size: large;}
+
+a{
+    text-decoration: none;
 }
+
+a:hover{
+    color: rgb(73, 131, 95);
+}
+
 h1 {
-    text-align: left;
-    color: black;
+    text-align: center;
+    color: rgba(7, 7, 7, 0.904);
 }
 h2 {
-    text-align:left;
-    color: black;
+    text-align: center;
+    color: rgba(10, 10, 10, 0.952);
 }
 p {
-    text-align:left;
-    color: black;
+    text-align: center;
+    color: rgb(14, 13, 14);
 
 }
 
 body{
     width: auto;
     margin: auto;
-    background-color: rgb(54, 56, 55);
+   
     padding: 0vmax;
-background-image:-webkit-image-set()
-
+background-image: -webkit-image-set();
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(64, 54, 66);
 }
 
 #naz{
@@ -42,10 +51,10 @@ background-image:-webkit-image-set()
 
 #ttt{
 
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 .links{
-    border: 1px rgb(22, 21, 21);
+    border: 1px
     display: flex;
     justify-content: flex-end;
 }
@@ -70,6 +79,25 @@ background-image:-webkit-image-set()
     justify-content: flex-start;
 }
 
+.flex{
+    display: flex;
+}
+
+.kolon-flex{
+    flex-direction: column;
+}
+
+.ortala{
+    align-items: center;
+}
+.yatayikiyana{
+    justify-content: space-between;
+}
+
+.yatayortala{
+    justify-content: center;
+}
+
 .italic{
     font-style: italic;
 }
@@ -78,4 +106,31 @@ background-image:-webkit-image-set()
     padding: 10px;
     margin: 10px;
 }
+.contegner{
+    width: 100dvw;
+    height:  calc( 100vh - 100px)
+   ;
+}
 
+.margin-top4{
+    margin-top: 4%;
+}
+
+.margin-top2{
+    margin-top: 2%;
+}
+
+.margin2{
+    margin: 2%;
+  
+}
+.max-width-70{
+    max-width: 70%;
+}
+
+.gap{
+    gap: 5%;
+}
+.suslu{
+    font-family:Brush Script MT;
+}
